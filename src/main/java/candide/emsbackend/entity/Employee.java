@@ -1,14 +1,12 @@
 package candide.emsbackend.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Generated;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 @Entity
 @Table(name = "employees")
 public class Employee {
